@@ -1,44 +1,32 @@
+/* TO USE FOR HEADERS */
+/* * {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+} */
+
+/* TO USE FOR NORMAL TEXT */
+/* // <weight>: Use a value from 100 to 900
+// <uniquifier>: Use a unique and descriptive class name */
+
+/* .montserrat-<uniquifier> { */
 * {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 475;
+  font-style: normal;
 }
 
-[class$="wrapper"] {
-  background-color: #00C9E4;
-  width: 100vw;
-  height: 100vh;
-  overflow-y: hidden;
+html {
+  margin-top: 0px;
 }
 
-.App {
-  text-align: center;
+body {
+  background-color: #CDC9C6;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  font-family: "Belanosima", sans-serif;
+  font-weight: 600;
+  font-size: 375px;
 }

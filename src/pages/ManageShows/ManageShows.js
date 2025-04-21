@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 
-import Header from "../../components/Header/Header";
+// import Header from "../../components/Header/Header";
 import ShowCard from "../../components/ShowCard/ShowCard";
 import "./ManageShows.css";
 
@@ -32,7 +32,7 @@ function ManageShows() {
 
     return(
         <div className="ManageShows-wrapper">
-            <Header />
+            {/* <Header /> */}
 
             <h1>Manage Shows</h1>
             <h4 style={{position: "relative", top: "15px"}}>Click a card to edit details</h4>
