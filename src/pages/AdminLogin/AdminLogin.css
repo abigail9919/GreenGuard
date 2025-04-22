@@ -25,7 +25,7 @@
 
 .adminLogin-header {
     text-align: center;
-    padding-top: 10%;
+    padding-top: 15%;
 }
 
 .adminLoginForm {
@@ -34,7 +34,7 @@
     left: 0;
     right: 0;
     position: relative;
-    top: 12%;
+    top: 8%;
     height: 30%;
 }
 
@@ -45,8 +45,8 @@
     height: 100%;
 }
 
-.form-floating {
-    justify-content: space-between;
+.form-floating > .form-control {
+    height: 50px;
 }
 
 .form-control {
@@ -62,5 +62,23 @@
 
 .login-button {
     position: absolute;
-    bottom: 10px;
+    bottom: 25%;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+.titleScreenLink {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 18%;
+    color: #777777;
+    width: fit-content
+}
+
+.titleScreenLink:hover {
+    color: black;
 }
