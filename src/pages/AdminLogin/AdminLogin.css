@@ -1,0 +1,66 @@
+.fiddle-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 100vh;
+}
+
+.pothos-img {
+    position: absolute;
+    left: 0;
+    height: 100vh;
+}
+
+.login-wrapper {
+    background-color: #F8F8F8;
+    position: absolute;
+    width: 27vw;
+    height: 75vh;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.adminLogin-header {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.adminLoginForm {
+    width: 80%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    position: relative;
+    top: 12%;
+    height: 30%;
+}
+
+.adminLoginForm .inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.form-floating {
+    justify-content: space-between;
+}
+
+.form-control {
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+}
+
+.form-control:focus {
+    background-color: transparent;
+}
+
+.login-button {
+    position: absolute;
+    bottom: 10px;
+}

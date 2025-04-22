@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from "./pages/Home/Home";
-import ManageShows from "./pages/ManageShows/ManageShows";
-import ManageVideos from "./pages/ManageVideos/ManageVideos";
+import AdminLogin from "./pages/AdminLogin/AdminLogin";
 import './App.css';
 
 function App() {
@@ -10,8 +9,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/manage-shows" element={<ManageShows />} />
-          <Route path="/manage-videos" element={<ManageVideos />} />
+          <Route path="/admin-login" element={<AdminLogin />} />
         </Routes>
       </Router>
     </div>

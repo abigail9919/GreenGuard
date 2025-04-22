@@ -3,13 +3,7 @@
     height: 100vh;
 }
 
-.Image-wrapper {
-    width: 80vw;
-    float: right;
-    padding-bottom: 0;
-}
-
-img {
+.ClearFern {
     width: 100%;
     height: auto;
     position: absolute;
