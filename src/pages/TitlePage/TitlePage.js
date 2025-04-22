@@ -2,9 +2,9 @@ import ClearFern from "../../images/fern-clear.png";
 import { Link } from "react-router-dom";
 import "./TitlePage.css";
 
-function Home() {
+function TitlePage() {
     return(
-        <div className="Home-wrapper">
+        <div className="TitlePage-wrapper">
             <div className="background-image-wrapper">
                 <img className="ClearFern" src={ClearFern}></img>
             </div>
@@ -14,4 +14,4 @@ function Home() {
     )
 }
 
-export default Home;
+export default TitlePage;
