@@ -14,12 +14,11 @@ function Home() {
             <div className="Image-wrapper">
                 <img src={ClearFern}></img>
             </div>
-
             <h1>
                 GREEN <br />
                 GUARD
             </h1>
-
+            <Link to={`/admin-login`}><button className="adminLoginButton">Admin Login</button></Link>
 
         </div>
     )
