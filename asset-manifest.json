@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/GreenGuard/static/css/main.39cbaf21.css",
-    "main.js": "/GreenGuard/static/js/main.07722f0d.js",
+    "main.js": "/GreenGuard/static/js/main.6cd8ff6b.js",
     "static/js/453.7871c060.chunk.js": "/GreenGuard/static/js/453.7871c060.chunk.js",
     "static/media/fern-clear.png": "/GreenGuard/static/media/fern-clear.839d0a6b2cd2493a7040.png",
     "static/media/fiddle.png": "/GreenGuard/static/media/fiddle.3d638e6c667e9d8d2318.png",
     "static/media/pothos.png": "/GreenGuard/static/media/pothos.35ee414fb9dc378221e7.png",
     "index.html": "/GreenGuard/index.html",
     "main.39cbaf21.css.map": "/GreenGuard/static/css/main.39cbaf21.css.map",
-    "main.07722f0d.js.map": "/GreenGuard/static/js/main.07722f0d.js.map",
+    "main.6cd8ff6b.js.map": "/GreenGuard/static/js/main.6cd8ff6b.js.map",
     "453.7871c060.chunk.js.map": "/GreenGuard/static/js/453.7871c060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.39cbaf21.css",
-    "static/js/main.07722f0d.js"
+    "static/js/main.6cd8ff6b.js"
   ]
 }
